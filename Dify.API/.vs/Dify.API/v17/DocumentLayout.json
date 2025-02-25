@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\console\\consolebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\console\\consolebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\dify.dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\dify.dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\console\\consoledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\console\\consoledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\middleware\\setuprequiredmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\middleware\\setuprequiredmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\base\\basebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\base\\basebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\console\\iconsolebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\console\\iconsolebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\console\\iconsoledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\console\\iconsoledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\base\\ibasebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\base\\ibasebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\database\\postgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\database\\postgredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\database\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\database\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\helper\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\helper\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\dify.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\dify.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\dify.console.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\dify.console.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\dify.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\dify.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.API.csproj|solutionrelative:dify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetupRequiredMiddleware.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Middleware\\SetupRequiredMiddleware.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Middleware\\SetupRequiredMiddleware.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Middleware\\SetupRequiredMiddleware.cs",
+              "RelativeToolTip": "Dify.Common\\Middleware\\SetupRequiredMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T09:52:31.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleDL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Console\\ConsoleDL.cs",
+              "RelativeDocumentMoniker": "Dify.DL\\Console\\ConsoleDL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Console\\ConsoleDL.cs",
+              "RelativeToolTip": "Dify.DL\\Console\\ConsoleDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:53:45.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IConsoleDL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Console\\IConsoleDL.cs",
+              "RelativeDocumentMoniker": "Dify.DL\\Console\\IConsoleDL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Console\\IConsoleDL.cs",
+              "RelativeToolTip": "Dify.DL\\Console\\IConsoleDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:53:25.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dify.DL",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
+              "RelativeDocumentMoniker": "Dify.DL\\Dify.DL.csproj",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
+              "RelativeToolTip": "Dify.DL\\Dify.DL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T08:45:51.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Console\\ConsoleBL.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Console\\ConsoleBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Console\\ConsoleBL.cs",
+              "RelativeToolTip": "Dify.BL\\Console\\ConsoleBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:49:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IConsoleBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Console\\IConsoleBL.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Console\\IConsoleBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Console\\IConsoleBL.cs",
+              "RelativeToolTip": "Dify.BL\\Console\\IConsoleBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:49:11.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Base\\BaseBL.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Base\\BaseBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Base\\BaseBL.cs",
+              "RelativeToolTip": "Dify.BL\\Base\\BaseBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:46:20.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBaseBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Base\\IBaseBL.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Base\\IBaseBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Base\\IBaseBL.cs",
+              "RelativeToolTip": "Dify.BL\\Base\\IBaseBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:46:06.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Program.cs",
+              "RelativeDocumentMoniker": "Dify.API\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Program.cs",
+              "RelativeToolTip": "Dify.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:22:18.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
+              "RelativeDocumentMoniker": "Dify.API\\Startup.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
+              "RelativeToolTip": "Dify.API\\Startup.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:22:16.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PostgreDbContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\PostgreDbContext.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Database\\PostgreDbContext.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\PostgreDbContext.cs",
+              "RelativeToolTip": "Dify.Common\\Database\\PostgreDbContext.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwGIAAAC5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:33:35.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDbContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\IDbContext.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Database\\IDbContext.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\IDbContext.cs",
+              "RelativeToolTip": "Dify.Common\\Database\\IDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:32:29.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConfigHelper.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Helper\\ConfigHelper.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Helper\\ConfigHelper.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Helper\\ConfigHelper.cs",
+              "RelativeToolTip": "Dify.Common\\Helper\\ConfigHelper.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:41:51.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dify.Common",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj",
+              "RelativeDocumentMoniker": "Dify.Common\\Dify.Common.csproj",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj",
+              "RelativeToolTip": "Dify.Common\\Dify.Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T03:48:18.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Class1.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Class1.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Class1.cs",
+              "RelativeToolTip": "Dify.BL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:25:00.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Class1.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Class1.cs",
+              "RelativeToolTip": "Dify.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:24:32.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dify.Console.API.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Dify.Console.API.csproj",
+              "RelativeDocumentMoniker": "Dify.API\\Dify.Console.API.csproj",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Dify.Console.API.csproj",
+              "RelativeToolTip": "Dify.API\\Dify.Console.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T02:47:16.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Dify.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Dify.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T02:24:05.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Dify.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.Development.json",
+              "RelativeToolTip": "Dify.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T02:24:02.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Dify.API\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
+              "RelativeToolTip": "Dify.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T02:23:41.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dify.API.http",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Dify.API.http",
+              "RelativeDocumentMoniker": "Dify.API\\Dify.API.http",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Dify.API.http",
+              "RelativeToolTip": "Dify.API\\Dify.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-25T02:23:30.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
