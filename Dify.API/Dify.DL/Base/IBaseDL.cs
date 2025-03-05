@@ -10,6 +10,6 @@ namespace Dify.DL.Base
 {
     public interface IBaseDL
     {
-        
+        Task<List<T>> SearchRecords<T>(Dictionary<string, object> searchParams) where T : class;
     }
 }

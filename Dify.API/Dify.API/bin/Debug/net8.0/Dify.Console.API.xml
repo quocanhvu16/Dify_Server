@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dify.Console.API</name>
+    </assembly>
+    <members>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.GetDraftWorkflowByID(System.String)">
+            <summary>
+            Lấy workflow nháp theo ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.GetAllDraftWorkflow">
+            <summary>
+            Lấy toàn bộ workflow nháp
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.SyncDraftWorkflow(System.String)">
+            <summary>
+            Đồng bộ hóa workflow nhap
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.RunDraftWorkflow(System.String)">
+            <summary>
+            Chạy workflow nháp
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

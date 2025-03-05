@@ -1,0 +1,99 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Ecommerce API",
+    "version": "v1"
+  },
+  "paths": {
+    "/Workflow/api/draft/{id}": {
+      "get": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Lấy workflow nháp theo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Đồng bộ hóa workflow nhap",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Workflow/api/draft/all": {
+      "get": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Lấy toàn bộ workflow nháp",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Workflow/api/draft/{id}/run": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Chạy workflow nháp",
+        "parameters": [
+          {
+            "name": "runWorkflowParameter",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

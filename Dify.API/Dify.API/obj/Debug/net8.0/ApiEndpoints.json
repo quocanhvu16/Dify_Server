@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "GetDraftWorkflowByID",
+    "RelativePath": "Workflow/api/draft/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "SyncDraftWorkflow",
+    "RelativePath": "Workflow/api/draft/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "RunDraftWorkflow",
+    "RelativePath": "Workflow/api/draft/{id}/run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "runWorkflowParameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "GetAllDraftWorkflow",
+    "RelativePath": "Workflow/api/draft/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -25,18 +25,18 @@ namespace Dify.Common.Middleware
 
         public async Task Invoke(HttpContext context)
         {
-            using var scope = _scopeFactory.CreateScope();
-            var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            //using var scope = _scopeFactory.CreateScope();
+            //var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-            var initPassword = _configuration["INIT_PASSWORD"];
-            var isSelfHosted = _configuration["EDITION"] == "SELF_HOSTED";
+            //var initPassword = _configuration["INIT_PASSWORD"];
+            //var isSelfHosted = _configuration["EDITION"] == "SELF_HOSTED";
 
-            if (isSelfHosted && !string.IsNullOrEmpty(initPassword) && !dbContext.DifySetups.Any())
-            {
-                context.Response.StatusCode = StatusCodes.Status403Forbidden;
-                await context.Response.WriteAsync("Application is not initialized.");
-                return;
-            }
+            //if (isSelfHosted && !string.IsNullOrEmpty(initPassword) && !dbContext.DifySetups.Any())
+            //{
+            //    context.Response.StatusCode = StatusCodes.Status403Forbidden;
+            //    await context.Response.WriteAsync("Application is not initialized.");
+            //    return;
+            //}
 
             await _next(context);
         }

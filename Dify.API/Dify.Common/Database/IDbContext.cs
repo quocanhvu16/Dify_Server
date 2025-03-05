@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Npgsql;
 
 namespace Dify.Common.Database
 {
@@ -19,13 +18,13 @@ namespace Dify.Common.Database
 
         Task<int> ExecuteAsync(string sql, object parameters = null);
 
-        Task<int> ExecuteAsync(NpgsqlTransaction transaction, string sql, object parameters = null);
+        Task<int> ExecuteAsync(IDbTransaction transaction, string sql, object parameters = null);
 
         Task<List<T>> QueryNonQueryAsync<T>(string prodedureName, object parameters = null);
 
         Task<int> ExecuteNonQueryAsync(string prodedureName, object parameters = null);
 
-        Task<int> ExecuteNonQueryAsync(NpgsqlTransaction transaction, string prodedureName, object parameters = null);
+        Task<int> ExecuteNonQueryAsync(IDbTransaction transaction, string prodedureName, object parameters = null);
 
     }
 }

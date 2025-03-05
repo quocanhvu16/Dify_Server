@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "039fBX8k//KNcUckHmt7EuxwO6IDNWs2BYKPPcVOQ9k=",
+  "Source": "Dify.Console.API",
+  "BasePath": "_content/Dify.Console.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

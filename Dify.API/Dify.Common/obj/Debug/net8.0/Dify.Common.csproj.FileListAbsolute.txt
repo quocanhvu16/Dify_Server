@@ -1,0 +1,13 @@
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\bin\Debug\net8.0\Dify.Common.deps.json
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\bin\Debug\net8.0\Dify.Common.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\bin\Debug\net8.0\Dify.Common.pdb
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.csproj.AssemblyReference.cache
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.AssemblyInfoInputs.cache
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.AssemblyInfo.cs
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.csproj.CoreCompileInputs.cache
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.sourcelink.json
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\refint\Dify.Common.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\Dify.Common.pdb
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.Common\obj\Debug\net8.0\ref\Dify.Common.dll

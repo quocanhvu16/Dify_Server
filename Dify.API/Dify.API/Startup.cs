@@ -1,9 +1,17 @@
-﻿using Dify.BL.Console;
+﻿using Dify.Common.EntityCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using System;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
+using Dify.BL.Base;
+using Dify.DL.Base;
+using Dify.DL.Workflows;
+using Dify.BL.Workflows;
+using Dify.Common.Database;
+using Microsoft.Extensions.Options;
 
 namespace Dify.Console.API
 {
@@ -20,10 +28,17 @@ namespace Dify.Console.API
         {
             ConfigureServicesCommon(services);
 
-            services.AddScoped<IConsoleBL, ConsoleBL>();
+            services.AddScoped<IBaseBL, BaseBL>();
+            services.AddScoped<IBaseDL, BaseDL>();
+
+            services.AddScoped<IWorkflowBL, WorkflowBL>();
+            services.AddScoped<IWorkflowDL, WorkflowDL>();
+
+            services.AddScoped<IDbContext, MySQLDbContext>();
+            services.AddScoped<EntityDbContext>();
         }
 
-        public static void ConfigureServicesCommon(IServiceCollection services)
+        public void ConfigureServicesCommon(IServiceCollection services)
         {
             // Đăng ký các controller trong ứng dụng
             services.AddControllers();
@@ -34,6 +49,10 @@ namespace Dify.Console.API
             // Đăng ký và cấu hình dịch vụ Swagger
             services.AddSwaggerGen(c =>
             {
+                // Hiển thị XML comments trong Swagger
+                var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ecommerce API", Version = "v1" });
             });
 
@@ -43,10 +62,21 @@ namespace Dify.Console.API
                 build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
             }));
 
+            MySQLDbContext.RegisterTypeHandler();
+
+            services.AddDbContext<EntityDbContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("MySQLConnection"), ServerVersion.AutoDetect(Configuration.GetConnectionString("MySQLConnection")))
+            );
+
             // Thiết lập ủy quyền
             services.AddAuthorization();
 
             services.AddHttpContextAccessor();
+
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

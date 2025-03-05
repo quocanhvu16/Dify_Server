@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dify.Console.API.props" />
+</Project>

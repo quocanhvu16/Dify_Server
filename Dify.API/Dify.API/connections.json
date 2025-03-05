@@ -1,0 +1,4 @@
+{
+  "MySQLConnection": "Server=127.0.0.1;Port=3306;Database=misa_ai_workflow;Uid=root;Pwd=12345678;",
+  "Postgre": "Host=localhost;Port=5432;Username=postgres;Password=12345678@Abc;Database=dify"
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dify.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c5662e77cb941c71fad21de0f4d12b17a229a29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dify.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dify.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

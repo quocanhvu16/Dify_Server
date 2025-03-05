@@ -68,9 +68,17 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
-            "Npgsql": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[2.4.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
