@@ -64,23 +64,81 @@
         }
       }
     },
-    "/Workflow/api/draft/{id}/run": {
+    "/Workflow/api/draft/run": {
       "post": {
         "tags": [
           "Workflow"
         ],
         "summary": "Chạy workflow nháp",
-        "parameters": [
-          {
-            "name": "runWorkflowParameter",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
             }
-          },
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Workflow/api/draft/runv2": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Chạy workflow nháp đa luồng",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Workflow/api/sse/{id}": {
+      "get": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Chạy workflow nháp đa luồng",
+        "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "string"

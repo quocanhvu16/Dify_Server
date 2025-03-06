@@ -4,6 +4,13 @@
         <name>Dify.Console.API</name>
     </assembly>
     <members>
+        <member name="M:Dify.Console.API.Consumer.RunWorkflowHandler.GetInputForNode(Dify.Common.Entities.Node,System.String)">
+            <summary>
+            Chuẩn bị tham số đầu vào cho node
+            </summary>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
         <member name="M:Dify.Console.API.Controllers.WorkflowController.GetDraftWorkflowByID(System.String)">
             <summary>
             Lấy workflow nháp theo ID
@@ -27,6 +34,20 @@
         <member name="M:Dify.Console.API.Controllers.WorkflowController.RunDraftWorkflow(System.String)">
             <summary>
             Chạy workflow nháp
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.RunDraftWorkflowV2(System.String)">
+            <summary>
+            Chạy workflow nháp đa luồng
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.RunDraftWorkflowSSE(System.String)">
+            <summary>
+            Chạy workflow nháp đa luồng
             </summary>
             <param name="id"></param>
             <returns></returns>

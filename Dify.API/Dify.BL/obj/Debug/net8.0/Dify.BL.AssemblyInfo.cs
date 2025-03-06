@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dify.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a1aa9ba9990b42f9f60bdac2a0192ec69310a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47129b6a68d5f62d0827228e0e6505296c21f5a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dify.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dify.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

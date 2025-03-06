@@ -1,10 +1,12 @@
 ﻿using Dify.BL.Workflows;
 using Dify.Common.Model;
+using EasyNetQ.Internals;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StackExchange.Redis;
+using System.Text;
 
 namespace Dify.Console.API.Controllers
 {
@@ -64,7 +66,7 @@ namespace Dify.Console.API.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("draft/run")]
-        public async Task RunDraftWorkflow(string runWorkflowParameter)
+        public async Task RunDraftWorkflow([FromBody]string runWorkflowParameter)
         {
             var parameter = JsonConvert.DeserializeObject<RunWorkflowModel>(runWorkflowParameter);
 
@@ -72,6 +74,7 @@ namespace Dify.Console.API.Controllers
             var workflow = await _workflowBL.GetWorkflowDraftByID(parameter.WorkflowID);
 
             var runner = new WorkflowRunner(workflow, parameter.Inputs);
+
             runner.OnNodeCompleted += async (eventName, nodeID, result) =>
             {
                 var json = JsonConvert.SerializeObject(new { eventName, nodeID, result });
@@ -104,15 +107,38 @@ namespace Dify.Console.API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        //[HttpPost]
-        //[Route("sse/{id}")]
-        //public async Task<IActionResult> RunDraftWorkflowV2(string workflowID)
-        //{
-        //    var parameter = JsonConvert.DeserializeObject<RunWorkflowModel>(runWorkflowParameter);
+        [HttpGet]
+        [Route("sse/{id}")]
+        public async Task RunDraftWorkflowSSE(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                Response.StatusCode = 400;
+                await Response.WriteAsync("Missing workflowId");
+                return;
+            }
 
-        //    var workflowID = await _workflowBL.RunWorkflowV2(parameter);
+            Response.ContentType = "text/event-stream";
+            Response.Headers.CacheControl = "no-cache";
+            Response.Headers.Connection = "keep-alive";
 
-        //    return Ok(workflowID);
-        //}
+            var redisSub = _redis.GetSubscriber();
+            // Tạo CancellationToken để dừng khi client ngắt kết nối
+            var cts = new CancellationTokenSource();
+                    Request.HttpContext.RequestAborted.Register(() => cts.Cancel());
+
+            await redisSub.SubscribeAsync($"workflow:{id}:events", async (channel, message) =>
+            {
+                await Response.WriteAsync($"data: {message}\n\n");
+                await Response.Body.FlushAsync();
+
+            });
+
+            // Giữ kết nối mở
+            while (!cts.Token.IsCancellationRequested)
+            {
+                await Task.Delay(1000, cts.Token);
+            }
+        }
     }
 }

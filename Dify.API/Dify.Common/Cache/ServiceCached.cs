@@ -19,7 +19,7 @@ namespace Dify.Common.Cache
 
         #region Cache Temp
 
-        public async Task<string> GetCacheTempAsync(string key)
+        public async Task<string> GetCacheAsync(string key)
         {
             var value = await _serviceCached.GetStringAsync(key);
             return value;

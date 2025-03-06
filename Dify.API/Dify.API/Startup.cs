@@ -13,6 +13,7 @@ using Dify.Common.Extensions;
 using EasyNetQ;
 using Dify.Common.QueueData;
 using StackExchange.Redis;
+using Dify.Console.API.Consumer;
 
 namespace Dify.Console.API
 {
@@ -38,12 +39,16 @@ namespace Dify.Console.API
             services.AddScoped<IDbContext, MySQLDbContext>();
             services.AddScoped<EntityDbContext>();
 
+            services.AddTransient<IRunWorkflowHandler, RunWorkflowHandler>();
+            services.AddHostedService<WorkflowConsumer>();
+
             var advancedBusSection = Configuration.GetSection("AdvancedBus");
             RabbitMqConfig config = advancedBusSection.Get<RabbitMqConfig>();
             IAdvancedBus advancedBus = RabbitHutch.CreateBus(config.ConnectionString).Advanced;
             services.AddSingleton(advancedBus);
 
             services.AddRabbitMqPublisher<WorkflowQueueData>(Configuration.GetSection("WorkflowQueue").Get<RabbitMqConfig>(), advancedBus);
+            services.AddRabbitMqSubscriber<WorkflowQueueData>(Configuration.GetSection("WorkflowQueue").Get<RabbitMqConfig>(), advancedBus);
         }
 
         public void ConfigureServicesCommon(IServiceCollection services)

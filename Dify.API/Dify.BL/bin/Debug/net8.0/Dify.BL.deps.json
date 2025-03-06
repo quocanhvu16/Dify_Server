@@ -24,6 +24,17 @@
           }
         }
       },
+      "EasyNetQ/7.8.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.3.0",
@@ -326,6 +337,18 @@
           }
         }
       },
+      "RabbitMQ.Client/6.8.1": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.1.0"
+          }
+        }
+      },
       "System.IO.Pipelines/9.0.2": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
@@ -334,6 +357,7 @@
           }
         }
       },
+      "System.Memory/4.5.5": {},
       "System.Text.Encodings.Web/9.0.2": {
         "runtime": {
           "lib/net8.0/System.Text.Encodings.Web.dll": {
@@ -362,9 +386,11 @@
           }
         }
       },
+      "System.Threading.Channels/7.0.0": {},
       "Dify.Common/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.66",
+          "EasyNetQ": "7.8.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.Extensions.Configuration": "9.0.2",
           "Microsoft.Extensions.Configuration.Json": "9.0.2",
@@ -405,6 +431,13 @@
       "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
       "path": "dapper/2.1.66",
       "hashPath": "dapper.2.1.66.nupkg.sha512"
+    },
+    "EasyNetQ/7.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qo+OoVkQMsN/LU/0QtKZF+bt8W0G5gd3OUibxluWQhWA2bqmapS9R+Hvb3hpQ5JV+TaiJyxM43ZkmnhOLm9r0g==",
+      "path": "easynetq/7.8.0",
+      "hashPath": "easynetq.7.8.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
       "type": "package",
@@ -602,12 +635,26 @@
       "path": "pomelo.entityframeworkcore.mysql/8.0.3",
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512"
     },
+    "RabbitMQ.Client/6.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "path": "rabbitmq.client/6.8.1",
+      "hashPath": "rabbitmq.client.6.8.1.nupkg.sha512"
+    },
     "System.IO.Pipelines/9.0.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-UIBaK7c/A3FyQxmX/747xw4rCUkm1BhNiVU617U5jweNJssNjLJkPUGhBsrlDG0BpKWCYKsncD+Kqpy4KmvZZQ==",
       "path": "system.io.pipelines/9.0.2",
       "hashPath": "system.io.pipelines.9.0.2.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Text.Encodings.Web/9.0.2": {
       "type": "package",
@@ -622,6 +669,13 @@
       "sha512": "sha512-4TY2Yokh5Xp8XHFhsY9y84yokS7B0rhkaZCXuRiKppIiKwPVH4lVSFD9EEFzRpXdBM5ZeZXD43tc2vB6njEwwQ==",
       "path": "system.text.json/9.0.2",
       "hashPath": "system.text.json.9.0.2.nupkg.sha512"
+    },
+    "System.Threading.Channels/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "path": "system.threading.channels/7.0.0",
+      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
     "Dify.Common/1.0.0": {
       "type": "project",

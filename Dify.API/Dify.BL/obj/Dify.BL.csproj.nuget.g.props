@@ -5,20 +5,19 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vqanh\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\vqanh\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Admin\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.13\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.13\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.clearscript.v8.native.win-x64\7.4.5\build\Microsoft.ClearScript.V8.Native.win-x64.props" Condition="Exists('$(NuGetPackageRoot)microsoft.clearscript.v8.native.win-x64\7.4.5\build\Microsoft.ClearScript.V8.Native.win-x64.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_ClearScript_V8_Native_win-x64 Condition=" '$(PkgMicrosoft_ClearScript_V8_Native_win-x64)' == '' ">C:\Users\vqanh\.nuget\packages\microsoft.clearscript.v8.native.win-x64\7.4.5</PkgMicrosoft_ClearScript_V8_Native_win-x64>
+    <PkgMicrosoft_ClearScript_V8_Native_win-x64 Condition=" '$(PkgMicrosoft_ClearScript_V8_Native_win-x64)' == '' ">C:\Users\Admin\.nuget\packages\microsoft.clearscript.v8.native.win-x64\7.4.5</PkgMicrosoft_ClearScript_V8_Native_win-x64>
   </PropertyGroup>
 </Project>

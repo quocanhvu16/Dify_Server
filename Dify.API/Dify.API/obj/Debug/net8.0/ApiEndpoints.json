@@ -33,8 +33,18 @@
   },
   {
     "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "GetAllDraftWorkflow",
+    "RelativePath": "Workflow/api/draft/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
     "Method": "RunDraftWorkflow",
-    "RelativePath": "Workflow/api/draft/{id}/run",
+    "RelativePath": "Workflow/api/draft/run",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -42,11 +52,6 @@
       {
         "Name": "runWorkflowParameter",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "",
         "IsRequired": true
       }
     ],
@@ -60,12 +65,40 @@
   },
   {
     "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
-    "Method": "GetAllDraftWorkflow",
-    "RelativePath": "Workflow/api/draft/all",
+    "Method": "RunDraftWorkflowV2",
+    "RelativePath": "Workflow/api/draft/runv2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "runWorkflowParameter",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
+    "Method": "RunDraftWorkflowSSE",
+    "RelativePath": "Workflow/api/sse/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
