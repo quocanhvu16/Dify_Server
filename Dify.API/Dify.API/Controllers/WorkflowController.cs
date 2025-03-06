@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using StackExchange.Redis;
 
 namespace Dify.Console.API.Controllers
 {
@@ -14,9 +15,12 @@ namespace Dify.Console.API.Controllers
 
         private readonly IWorkflowBL _workflowBL;
 
-        public WorkflowController(IWorkflowBL workflowBL)
+        private readonly IConnectionMultiplexer _redis;
+
+        public WorkflowController(IWorkflowBL workflowBL, IConnectionMultiplexer redis)
         {
             _workflowBL = workflowBL;
+            _redis = redis;
         }
         /// <summary>
         /// Lấy workflow nháp theo ID
@@ -59,7 +63,7 @@ namespace Dify.Console.API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("draft/{id}/run")]
+        [Route("draft/run")]
         public async Task RunDraftWorkflow(string runWorkflowParameter)
         {
             var parameter = JsonConvert.DeserializeObject<RunWorkflowModel>(runWorkflowParameter);
@@ -78,5 +82,37 @@ namespace Dify.Console.API.Controllers
             await runner.RunAsync();
 
         }
+
+        /// <summary>
+        /// Chạy workflow nháp đa luồng
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("draft/runv2")]
+        public async Task<IActionResult> RunDraftWorkflowV2([FromBody] string runWorkflowParameter)
+        {
+            var parameter = JsonConvert.DeserializeObject<RunWorkflowModel>(runWorkflowParameter);
+
+            var workflowID = await _workflowBL.RunWorkflowV2(parameter);
+
+            return Ok(workflowID);
+        }
+
+        /// <summary>
+        /// Chạy workflow nháp đa luồng
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        //[HttpPost]
+        //[Route("sse/{id}")]
+        //public async Task<IActionResult> RunDraftWorkflowV2(string workflowID)
+        //{
+        //    var parameter = JsonConvert.DeserializeObject<RunWorkflowModel>(runWorkflowParameter);
+
+        //    var workflowID = await _workflowBL.RunWorkflowV2(parameter);
+
+        //    return Ok(workflowID);
+        //}
     }
 }

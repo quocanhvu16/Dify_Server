@@ -1,17 +1,18 @@
 ﻿using Dify.Common.EntityCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Newtonsoft.Json;
-using System;
-using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Dify.BL.Base;
 using Dify.DL.Base;
 using Dify.DL.Workflows;
 using Dify.BL.Workflows;
 using Dify.Common.Database;
-using Microsoft.Extensions.Options;
+using Dify.Common.Cache;
+using Dify.Common.Helper;
+using Dify.Common.MessageQ;
+using Dify.Common.Extensions;
+using EasyNetQ;
+using Dify.Common.QueueData;
+using StackExchange.Redis;
 
 namespace Dify.Console.API
 {
@@ -36,6 +37,13 @@ namespace Dify.Console.API
 
             services.AddScoped<IDbContext, MySQLDbContext>();
             services.AddScoped<EntityDbContext>();
+
+            var advancedBusSection = Configuration.GetSection("AdvancedBus");
+            RabbitMqConfig config = advancedBusSection.Get<RabbitMqConfig>();
+            IAdvancedBus advancedBus = RabbitHutch.CreateBus(config.ConnectionString).Advanced;
+            services.AddSingleton(advancedBus);
+
+            services.AddRabbitMqPublisher<WorkflowQueueData>(Configuration.GetSection("WorkflowQueue").Get<RabbitMqConfig>(), advancedBus);
         }
 
         public void ConfigureServicesCommon(IServiceCollection services)
@@ -77,6 +85,17 @@ namespace Dify.Console.API
             {
                 options.JsonSerializerOptions.PropertyNamingPolicy = null;
             });
+
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = ConfigHelper.GetSetting<string>("Redis:Configuration", "localhost:6379"); // Cấu hình kết nối Redis
+                options.InstanceName = ConfigHelper.GetSetting<string>("Redis:InstanceName", "");
+            });
+
+            services.AddSingleton<IConnectionMultiplexer>(sp =>
+                ConnectionMultiplexer.Connect("localhost:6379"));
+
+            services.AddSingleton<ServiceCached>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

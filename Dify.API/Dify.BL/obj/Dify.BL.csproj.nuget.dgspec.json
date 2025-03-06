@@ -137,6 +137,10 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.3.0, )"

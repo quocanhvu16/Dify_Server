@@ -1,5 +1,6 @@
 ﻿using Dify.BL.Base;
 using Dify.Common.Entities;
+using Dify.Common.Model;
 
 namespace Dify.BL.Workflows
 {
@@ -7,5 +8,7 @@ namespace Dify.BL.Workflows
     {
         Task<List<Workflow>> GetAllWorkFlowDraft();
         Task<Workflow> GetWorkflowDraftByID(string id);
+
+        Task<string> RunWorkflowV2(RunWorkflowModel workflow);
     }
 }

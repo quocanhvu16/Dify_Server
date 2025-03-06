@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dify.Common.Model
+namespace Dify.Common.QueueData
 {
-    public class RunWorkflowModel
+    public class WorkflowQueueData
     {
         public string? WorkflowID { get; set; }
-        public Dictionary<string, object> Inputs { get; set; }
+
+        public string? NodeID { get; set; }
     }
 }
