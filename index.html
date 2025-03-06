@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #messages { margin-top: 20px; padding: 10px; border: 1px solid #ccc; width: 50%; margin-left: auto; margin-right: auto; }
+    </style>
+</head>
+<body>
+    <h1>Server-Sent Events (SSE) Demo</h1>
+    <button onclick="startSSE()">Start SSE</button>
+    <div id="messages"></div>
+
+    <script>
+        function startSSE() {
+            debugger
+            const eventSource = new EventSource("http://localhost:5270/Workflow/api/sse/b07bf758-fa7d-11ef-8bf5-9828a63a933c"); // Đổi port nếu cần
+            const messagesDiv = document.getElementById("messages");
+
+            eventSource.onmessage = function(event) {
+                const message = document.createElement("p");
+                message.textContent = event.data;
+                messagesDiv.appendChild(message);
+            };
+
+            eventSource.onerror = function() {
+                console.error("SSE connection error.");
+                eventSource.close();
+            };
+        }
+    </script>
+</body>
+</html>
