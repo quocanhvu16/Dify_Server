@@ -1,4 +1,5 @@
 ﻿using Dify.BL.Workflows;
+using Dify.Common.Entities;
 using Dify.Common.Model;
 using EasyNetQ.Internals;
 using Microsoft.AspNetCore.Http;
@@ -53,10 +54,11 @@ namespace Dify.Console.API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("draft/{id}")]
-        public async Task<IActionResult> SyncDraftWorkflow(string id)
+        [Route("draft")]
+        public async Task<IActionResult> SyncDraftWorkflow([FromBody]Workflow workflow)
         {
-            return Ok();
+            var result = await _workflowBL.SyncDraftWorkflow(workflow);
+            return Ok(result);
         }
 
         /// <summary>

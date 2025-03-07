@@ -1,54 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\",
+  "WorkspaceRootPath": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.api\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.api\\consumer\\workflowconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\consumer\\workflowconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.bl\\workflows\\workflowrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\workflows\\workflowrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.common\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.common\\constant\\cachestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\constant\\cachestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.bl\\workflows\\workflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\workflows\\workflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.common\\queuedata\\workflowqueuedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\queuedata\\workflowqueuedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.common\\constant\\streamevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\constant\\streamevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.common\\cache\\servicecached.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\cache\\servicecached.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|c:\\users\\admin\\desktop\\dify\\dify_server\\dify.api\\dify.api\\connections.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\connections.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\connections.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\workflows\\workflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\workflows\\workflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\workflows\\workflowrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\workflows\\workflowrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\workflows\\workflowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\workflows\\workflowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\workflows\\iworkflowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\workflows\\iworkflowdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.bl\\workflows\\iworkflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87B4CEE-7D66-4B1C-9A0D-11092B257A13}|Dify.BL\\Dify.BL.csproj|solutionrelative:dify.bl\\workflows\\iworkflowbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\entities\\workflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\entities\\workflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\database\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\database\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.dl\\base\\basedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC8E792D-3D98-441B-A8FD-53CDDBA43EB2}|Dify.DL\\Dify.DL.csproj|solutionrelative:dify.dl\\base\\basedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\queuedata\\workflowqueuedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\queuedata\\workflowqueuedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.api\\consumer\\workflowconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11978508-7B27-4C9A-8261-125E38B4D0C3}|Dify.API\\Dify.Console.API.csproj|solutionrelative:dify.api\\consumer\\workflowconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\constant\\cachestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\constant\\cachestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\constant\\streamevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\constant\\streamevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|d:\\desktop\\code\\dify_server\\dify.api\\dify.common\\cache\\servicecached.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFF7B1-128D-415B-90AA-9BE5557235B3}|Dify.Common\\Dify.Common.csproj|solutionrelative:dify.common\\cache\\servicecached.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +82,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
               "RelativeDocumentMoniker": "Dify.API\\Startup.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Startup.cs",
               "RelativeToolTip": "Dify.API\\Startup.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvzIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGQAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T02:22:16.234Z",
               "IsPinned": true,
@@ -76,41 +100,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "Dify.Common\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAIA+wBcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T03:22:10.966Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "CacheString.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\CacheString.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\CacheString.cs",
               "RelativeDocumentMoniker": "Dify.Common\\Constant\\CacheString.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\CacheString.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\CacheString.cs",
               "RelativeToolTip": "Dify.Common\\Constant\\CacheString.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T09:10:45.985Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WorkflowRunner.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowRunner.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowRunner.cs",
               "RelativeDocumentMoniker": "Dify.BL\\Workflows\\WorkflowRunner.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowRunner.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowRunner.cs",
               "RelativeToolTip": "Dify.BL\\Workflows\\WorkflowRunner.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAEwE4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T09:03:21.513Z",
               "IsPinned": true,
@@ -118,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "WorkflowBL.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowBL.cs",
               "RelativeDocumentMoniker": "Dify.BL\\Workflows\\WorkflowBL.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\WorkflowBL.cs",
               "RelativeToolTip": "Dify.BL\\Workflows\\WorkflowBL.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAewFAAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T03:55:27.776Z",
               "IsPinned": true,
@@ -132,13 +154,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "WorkflowController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Controllers\\WorkflowController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Controllers\\WorkflowController.cs",
               "RelativeDocumentMoniker": "Dify.API\\Controllers\\WorkflowController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Controllers\\WorkflowController.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Controllers\\WorkflowController.cs",
               "RelativeToolTip": "Dify.API\\Controllers\\WorkflowController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwI0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAArwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T01:42:22.929Z",
               "IsPinned": true,
@@ -146,11 +168,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "WorkflowQueueData.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\QueueData\\WorkflowQueueData.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\QueueData\\WorkflowQueueData.cs",
               "RelativeDocumentMoniker": "Dify.Common\\QueueData\\WorkflowQueueData.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\QueueData\\WorkflowQueueData.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\QueueData\\WorkflowQueueData.cs",
               "RelativeToolTip": "Dify.Common\\QueueData\\WorkflowQueueData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,81 +182,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "WorkflowConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Consumer\\WorkflowConsumer.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Consumer\\WorkflowConsumer.cs",
               "RelativeDocumentMoniker": "Dify.API\\Consumer\\WorkflowConsumer.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\Consumer\\WorkflowConsumer.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\Consumer\\WorkflowConsumer.cs",
               "RelativeToolTip": "Dify.API\\Consumer\\WorkflowConsumer.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAEwEYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T09:53:59.56Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IWorkflowBL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\IWorkflowBL.cs",
+              "RelativeDocumentMoniker": "Dify.BL\\Workflows\\IWorkflowBL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.BL\\Workflows\\IWorkflowBL.cs",
+              "RelativeToolTip": "Dify.BL\\Workflows\\IWorkflowBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:57:29.519Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Workflow.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Entities\\Workflow.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Entities\\Workflow.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Entities\\Workflow.cs",
+              "RelativeToolTip": "Dify.Common\\Entities\\Workflow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:03:53.784Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkflowDL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Workflows\\WorkflowDL.cs",
+              "RelativeDocumentMoniker": "Dify.DL\\Workflows\\WorkflowDL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Workflows\\WorkflowDL.cs",
+              "RelativeToolTip": "Dify.DL\\Workflows\\WorkflowDL.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwEEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:02:50.433Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "connections.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\connections.json",
-              "RelativeDocumentMoniker": "Dify.API\\connections.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\connections.json",
-              "RelativeToolTip": "Dify.API\\connections.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T11:26:11.483Z",
+              "Title": "BaseDL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Base\\BaseDL.cs",
+              "RelativeDocumentMoniker": "Dify.DL\\Base\\BaseDL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Base\\BaseDL.cs",
+              "RelativeToolTip": "Dify.DL\\Base\\BaseDL.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:06:29.521Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "MySQLDbContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\MySQLDbContext.cs",
+              "RelativeDocumentMoniker": "Dify.Common\\Database\\MySQLDbContext.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Database\\MySQLDbContext.cs",
+              "RelativeToolTip": "Dify.Common\\Database\\MySQLDbContext.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAOEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:04:34.627Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "connections.json",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\connections.json",
+              "RelativeDocumentMoniker": "Dify.API\\connections.json",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\connections.json",
+              "RelativeToolTip": "Dify.API\\connections.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T02:39:22.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWorkflowDL.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Workflows\\IWorkflowDL.cs",
+              "RelativeDocumentMoniker": "Dify.DL\\Workflows\\IWorkflowDL.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Workflows\\IWorkflowDL.cs",
+              "RelativeToolTip": "Dify.DL\\Workflows\\IWorkflowDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:00:48.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
               "RelativeDocumentMoniker": "Dify.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.API\\appsettings.json",
               "RelativeToolTip": "Dify.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-06T11:21:38.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ServiceCached.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Cache\\ServiceCached.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Cache\\ServiceCached.cs",
               "RelativeDocumentMoniker": "Dify.Common\\Cache\\ServiceCached.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Cache\\ServiceCached.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Cache\\ServiceCached.cs",
               "RelativeToolTip": "Dify.Common\\Cache\\ServiceCached.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAhwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T10:04:03.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T10:04:03.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "StreamEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\StreamEvent.cs",
+              "DocumentMoniker": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\StreamEvent.cs",
               "RelativeDocumentMoniker": "Dify.Common\\Constant\\StreamEvent.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\StreamEvent.cs",
+              "ToolTip": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Constant\\StreamEvent.cs",
               "RelativeToolTip": "Dify.Common\\Constant\\StreamEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:10:12.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T09:10:12.054Z"
             }
           ]
         }

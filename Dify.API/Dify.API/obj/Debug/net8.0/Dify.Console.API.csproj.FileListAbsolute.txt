@@ -171,3 +171,10 @@ C:\Users\Admin\Desktop\Dify\Dify_Server\Dify.API\Dify.API\obj\Debug\net8.0\Dify.
 C:\Users\Admin\Desktop\Dify\Dify_Server\Dify.API\Dify.API\obj\Debug\net8.0\Dify.Console.API.pdb
 C:\Users\Admin\Desktop\Dify\Dify_Server\Dify.API\Dify.API\obj\Debug\net8.0\Dify.Console.API.genruntimeconfig.cache
 C:\Users\Admin\Desktop\Dify\Dify_Server\Dify.API\Dify.API\obj\Debug\net8.0\ref\Dify.Console.API.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\EasyNetQ.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\Desktop\Code\Dify_Server\Dify.API\Dify.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

@@ -1,15 +1,15 @@
 [
   {
     "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
-    "Method": "GetDraftWorkflowByID",
-    "RelativePath": "Workflow/api/draft/{id}",
-    "HttpMethod": "GET",
+    "Method": "SyncDraftWorkflow",
+    "RelativePath": "Workflow/api/draft",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.String",
+        "Name": "workflow",
+        "Type": "Dify.Common.Entities.Workflow",
         "IsRequired": true
       }
     ],
@@ -17,9 +17,9 @@
   },
   {
     "ContainingType": "Dify.Console.API.Controllers.WorkflowController",
-    "Method": "SyncDraftWorkflow",
+    "Method": "GetDraftWorkflowByID",
     "RelativePath": "Workflow/api/draft/{id}",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

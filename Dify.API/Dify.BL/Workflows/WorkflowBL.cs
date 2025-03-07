@@ -37,6 +37,11 @@ namespace Dify.BL.Workflows
             return await _workflowDL.GetAllWorkFlowDraft();
         }
 
+        public async Task<string> SyncDraftWorkflow(Workflow workflow)
+        {
+            return await _workflowDL.SyncWorkflowDraft(workflow);
+        }
+
         public async Task<Workflow> GetWorkflowDraftByID(string id)
         {
             return await _workflowDL.GetWorkFlowDraftByID(id);

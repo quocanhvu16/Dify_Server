@@ -24,7 +24,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Dify.Console.API.Controllers.WorkflowController.SyncDraftWorkflow(System.String)">
+        <member name="M:Dify.Console.API.Controllers.WorkflowController.SyncDraftWorkflow(Dify.Common.Entities.Workflow)">
             <summary>
             Đồng bộ hóa workflow nhap
             </summary>

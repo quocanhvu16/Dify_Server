@@ -98,7 +98,7 @@ namespace Dify.Console.API
             });
 
             services.AddSingleton<IConnectionMultiplexer>(sp =>
-                ConnectionMultiplexer.Connect("localhost:6379"));
+                ConnectionMultiplexer.Connect(ConfigHelper.GetSetting<string>("Redis:Configuration", "localhost:6379")));
 
             services.AddSingleton<ServiceCached>();
         }

@@ -9,6 +9,8 @@ namespace Dify.BL.Workflows
         Task<List<Workflow>> GetAllWorkFlowDraft();
         Task<Workflow> GetWorkflowDraftByID(string id);
 
+        Task<string> SyncDraftWorkflow(Workflow workflow);
+
         Task<string> RunWorkflowV2(RunWorkflowModel workflow);
     }
 }

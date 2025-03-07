@@ -27,28 +27,6 @@
             "description": "OK"
           }
         }
-      },
-      "post": {
-        "tags": [
-          "Workflow"
-        ],
-        "summary": "Đồng bộ hóa workflow nhap",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
     "/Workflow/api/draft/all": {
@@ -57,6 +35,38 @@
           "Workflow"
         ],
         "summary": "Lấy toàn bộ workflow nháp",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Workflow/api/draft": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "summary": "Đồng bộ hóa workflow nhap",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Workflow"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Workflow"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Workflow"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -153,5 +163,286 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "DataEdge": {
+        "type": "object",
+        "properties": {
+          "SourceType": {
+            "type": "string",
+            "nullable": true
+          },
+          "TargetType": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsInIteration": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataNode": {
+        "type": "object",
+        "properties": {
+          "Title": {
+            "type": "string",
+            "nullable": true
+          },
+          "Selected": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "Desc": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Variables": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VariableEntity"
+            },
+            "nullable": true
+          },
+          "CodeLanguage": {
+            "type": "string",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "Outputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NodeOutputs"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Edge": {
+        "type": "object",
+        "properties": {
+          "EdgeID": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Source": {
+            "type": "string",
+            "nullable": true
+          },
+          "SourceHandle": {
+            "type": "string",
+            "nullable": true
+          },
+          "Target": {
+            "type": "string",
+            "nullable": true
+          },
+          "TargetHandle": {
+            "type": "string",
+            "nullable": true
+          },
+          "Data": {
+            "$ref": "#/components/schemas/DataEdge"
+          },
+          "ZIndex": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Graph": {
+        "type": "object",
+        "properties": {
+          "Nodes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Node"
+            },
+            "nullable": true
+          },
+          "Edges": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Edge"
+            },
+            "nullable": true
+          },
+          "ViewPort": {
+            "$ref": "#/components/schemas/ViewPort"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Node": {
+        "type": "object",
+        "properties": {
+          "NodeID": {
+            "type": "string",
+            "nullable": true
+          },
+          "Data": {
+            "$ref": "#/components/schemas/DataNode"
+          },
+          "Height": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Width": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Position": {
+            "$ref": "#/components/schemas/Position"
+          },
+          "PositionAbsolute": {
+            "$ref": "#/components/schemas/Position"
+          },
+          "SourcePosition": {
+            "type": "string",
+            "nullable": true
+          },
+          "TargetPosition": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Selected": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NodeOutputs": {
+        "type": "object",
+        "properties": {
+          "Variable": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "ValueSelector": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Position": {
+        "type": "object",
+        "properties": {
+          "X": {
+            "type": "number",
+            "format": "double"
+          },
+          "Y": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VariableEntity": {
+        "type": "object",
+        "properties": {
+          "Variable": {
+            "type": "string",
+            "nullable": true
+          },
+          "Label": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "MaxLength": {
+            "type": "string",
+            "nullable": true
+          },
+          "Required": {
+            "type": "boolean"
+          },
+          "Options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ValueSelector": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ViewPort": {
+        "type": "object",
+        "properties": {
+          "X": {
+            "type": "number",
+            "format": "double"
+          },
+          "Y": {
+            "type": "number",
+            "format": "double"
+          },
+          "Zoom": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Workflow": {
+        "type": "object",
+        "properties": {
+          "WorkflowID": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Graph": {
+            "$ref": "#/components/schemas/Graph"
+          },
+          "Version": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

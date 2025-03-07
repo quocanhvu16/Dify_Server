@@ -1500,23 +1500,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vqanh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
+      "projectUniqueName": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
       "projectName": "Dify.DL",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.DL\\obj\\",
+      "projectPath": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\Dify.DL.csproj",
+      "packagesPath": "C:\\Users\\vqanh\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.DL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vqanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1525,14 +1527,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\Dify\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj"
+            "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj": {
+              "projectPath": "D:\\Desktop\\Code\\Dify_Server\\Dify.API\\Dify.Common\\Dify.Common.csproj"
             }
           }
         }

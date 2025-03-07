@@ -10,11 +10,11 @@ namespace Dify.Common.Entities
 {
     public class Workflow
     {
-        public Guid WorkflowID { get; set; }
+        public Guid? WorkflowID { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
-        public Graph Graph { get; set; }
+        public Graph? Graph { get; set; }
 
         public string? Version { get; set; }
     }
